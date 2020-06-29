@@ -1,10 +1,15 @@
-/* цвет основного текста #757575; */
-/* вторичный цвет текста  #212121; */
-
-/* акцент #2196f3; */
-/* цвет фона #FFFFFF;  */
-/* вторичный цвет фона #F5F5F5; */
-
+/* 1st background color #FFFFFF;  */
+/* 2nd backgroundolor #F5F5F5; */
+/* 1st text color #757575; */
+/* 2nd text colot  #212121; */
+/* accent #2196f3; */
+/* .portfolio {
+    background-color: #ffffff;
+} */
+/* 
+  .portfolio-container .item-2col 
+  width: calc(100% / 3) * 2; 
+  */
 :root {
   --text-title-color: #212121;
   --primary-text-color: #757575;
@@ -108,7 +113,7 @@ p {
   color: var(--accent-color);
 }
 
-/*шапка сайта*/
+/*header*/
 
 .site-nav {
   display: flex;
@@ -175,7 +180,7 @@ card .site-nav .link,
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
-    url("../images/hero/hero.jpg");
+    url("../images/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -230,7 +235,7 @@ card .site-nav .link,
   margin-bottom: 50px;
 }
 
-/* Features и Examples */
+/* smth*/
 
 .feature-list {
   display: flex;
@@ -371,7 +376,7 @@ card .site-nav .link,
   height: 20px;
 }
 
-/* постоянные клиенты */
+/* clients */
 .client-list {
   display: flex;
 }
@@ -671,7 +676,7 @@ footer b {
   margin-bottom: 50px;
 }
 
-/* блок портфолио карточки */
+/* portfolio box */
 
 .portfolio-list {
   display: flex;
